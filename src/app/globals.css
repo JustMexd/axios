@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+thead {
+	background: rgba(204, 204, 204, .6);
+	font-size: 20px;
+}
+thead tr th {
+	padding: 10px 20px;
+	width: 150px;
+}
+
+thead th:last-child {
+    min-width: 200px;
+}
+
+tbody tr {
+	cursor: pointer;
+}
+
+tbody tr:hover {
+	background: #eee;
+}
+
+tr td,
+tr th {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+}
